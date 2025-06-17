@@ -55,7 +55,7 @@ Uma interpretação moderna e com uso de funcionalidades do clássico jogo de ar
 
     ```bash
     git clone https://github.com/Cabana021/game-asteroids.git
-    cd seu-repositorio
+    cd game-asteroids
     ```
 
 2.  **(Opcional, mas recomendado) Crie e ative um ambiente virtual:**
