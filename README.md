@@ -85,31 +85,20 @@ Uma interpretação moderna e com uso de funcionalidades do clássico jogo de ar
 
 ## 📂 Estrutura e Arquitetura
 
-O projeto foi desenvolvido com uma arquitetura modular e orientada a sistemas para garantir um código limpo, organizado e de fácil manutenção.
+O projeto foi desenvolvido com uma arquitetura modular e orientada a sistemas, garantindo um código limpo, organizado e de fácil manutenção.
 
-├── assets/ # Contém todas as imagens, sons e fontes.
-
-├── data/ # Armazena dados persistentes, como o highscore.
-
-├── src/ # Pasta principal com o código-fonte.
-
-│ ├── entities/ # Classes para objetos do jogo (Nave, Asteroide, UFO, Bala).
-
-│ ├── screens/ # Lógica para cada tela individual (Menu, Jogo, Game Over).
-
-│ ├── systems/ # Sistemas que gerenciam a lógica global (Colisão, Spawn, VFX).
-
-│ ├── utils/ # Ferramentas e classes auxiliares (HUD, Assets, Scores).
-
-│ ├── game.py # Lógica principal da tela de jogo.
-
-│ ├── game_state.py # Contêiner de dados para a sessão de jogo.
-
-│ └── settings.py # Constantes e configurações globais.
-
-└── run.py # Ponto de entrada da aplicação, gerencia a máquina de estados.
-
-└── requirements.txt # Dependências do projeto.
+├── assets/                  # Imagens, sons e fontes do jogo.
+├── data/                   # Dados persistentes (ex: highscore).
+├── src/                    # Código-fonte principal.
+│   ├── entities/           # Objetos do jogo (Nave, Asteroide, UFO, Bala).
+│   ├── screens/            # Telas do jogo (Menu, Jogo, Game Over).
+│   ├── systems/            # Lógica global (Colisões, Spawn, Efeitos visuais).
+│   ├── utils/              # Utilitários diversos (HUD, Gerenciador de Assets, Scores).
+│   ├── game.py             # Tela principal do jogo (loop e render).
+│   ├── game_state.py       # Armazena dados da sessão atual.
+│   └── settings.py         # Configurações e constantes globais.
+├── run.py                  # Arquivo principal. Inicia o jogo e controla os estados.
+└── requirements.txt        # Lista de dependências do projeto.
 
 ### Detalhes Técnicos
 
