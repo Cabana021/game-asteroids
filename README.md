@@ -87,18 +87,18 @@ Uma interpretação moderna e com uso de funcionalidades do clássico jogo de ar
 
 O projeto foi desenvolvido com uma arquitetura modular e orientada a sistemas, garantindo um código limpo, organizado e de fácil manutenção.
 
-├── assets/                  # Imagens, sons e fontes do jogo.Add commentMore actions
-├── data/                   # Dados persistentes (ex: highscore).
-├── src/                    # Código-fonte principal.
-│   ├── entities/           # Objetos do jogo (Nave, Asteroide, UFO, Bala).
-│   ├── screens/            # Telas do jogo (Menu, Jogo, Game Over).
-│   ├── systems/            # Lógica global (Colisões, Spawn, Efeitos visuais).
-│   ├── utils/              # Utilitários diversos (HUD, Gerenciador de Assets, Scores).
-│   ├── game.py             # Tela principal do jogo (loop e render).
-│   ├── game_state.py       # Armazena dados da sessão atual.
-│   └── settings.py         # Configurações e constantes globais.
-├── run.py                  # Arquivo principal. Inicia o jogo e controla os estados.
-└── requirements.txt        # Lista de dependências do projeto.
+├── assets/          # Imagens, sons e fontes do jogo.
+├── data/            # Dados persistentes (ex: highscore).
+├── src/             # Código-fonte principal.
+│   ├── entities/    # Objetos do jogo (Nave, Asteroide, UFO, Bala).
+│   ├── screens/     # Telas do jogo (Menu, Jogo, Game Over).
+│   ├── systems/     # Lógica global (Colisões, Spawn, Efeitos visuais).
+│   ├── utils/       # Utilitários diversos (HUD, Gerenciador de Assets, Scores).
+│   ├── game.py      # Tela principal do jogo (loop e render).
+│   ├── game_state.py# Armazena dados da sessão atual.
+│   └── settings.py  # Configurações e constantes globais.
+├── run.py           # Arquivo principal. Inicia o jogo e controla os estados.
+└── requirements.txt # Lista de dependências do projeto.
 
 ### Detalhes Técnicos
 
