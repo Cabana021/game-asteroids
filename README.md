@@ -87,7 +87,7 @@ Uma interpretação moderna e com uso de funcionalidades do clássico jogo de ar
 
 O projeto foi desenvolvido com uma arquitetura modular e orientada a sistemas, garantindo um código limpo, organizado e de fácil manutenção.
 
-.
+```
 ├── assets/           # Imagens, sons e fontes do jogo.
 ├── data/             # Dados persistentes (ex: highscore).
 ├── src/              # Código-fonte principal.
@@ -100,6 +100,7 @@ O projeto foi desenvolvido com uma arquitetura modular e orientada a sistemas, g
 │   └── settings.py   # Configurações e constantes globais.
 ├── run.py            # Arquivo principal. Inicia o jogo e controla os estados.
 └── requirements.txt  # Lista de dependências do projeto.
+```
 
 ### Detalhes Técnicos
 
