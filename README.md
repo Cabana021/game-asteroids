@@ -1,6 +1,6 @@
 # Asteroids
 
-Uma interpretação moderna e com uso de funcionalidades do clássico jogo de arcade Asteroids, construído do zero em Python com a biblioteca Pygame. Pilote a sua nave por um campo de asteroides, enfrente OVNIs hostis e lute pela maior pontuação em uma experiência arcade dinâmica e polida.
+Inspirado no jogo clássico Asteroids, esse projeto é especial para mim pois tenho o sonho de trabalhar com desenvolvimento de jogos, aproveite! Pilote a sua nave por um campo de asteroides, enfrente OVNIs hostis e lute para conseguir a maior pontuação possível em uma experiência arcade dinâmica e polida.
 
 ![Gameplay GIF](https://github.com/user-attachments/assets/728ed4f0-ac92-44ee-b61a-e9959bf5bff9)
 
@@ -112,7 +112,3 @@ O projeto foi desenvolvido com uma arquitetura modular e orientada a sistemas, g
 - **Estado de Jogo Desacoplado:** A classe `GameSessionState` armazena todos os dados de uma partida (pontuação, vidas, grupos de sprites). Isso permite que o jogo seja facilmente reiniciado e que diferentes sistemas acessem os dados do jogo de forma segura e centralizada.
 
 ---
-
-## 📄 Licença
-
-Este projeto é distribuído sob a licença MIT. Sinta-se à vontade para usar, modificar e distribuir o código.
